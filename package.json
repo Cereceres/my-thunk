@@ -1,0 +1,30 @@
+{
+  "name": "mythunk-node",
+  "version": "0.0.1",
+  "description": "thunkify a function given",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/my-thunk.git"
+  },
+  "keywords": [
+    "thunk",
+    "promise",
+    "all",
+    "function",
+    "callback",
+    "async"
+  ],
+  "author": "Jesus Cereceres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cereceres/my-thunk/issues"
+  },
+  "homepage": "https://github.com/Cereceres/my-thunk#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
