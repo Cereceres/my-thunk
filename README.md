@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Cereceres/my-thunk.svg?branch=master)](https://travis-ci.org/Cereceres/my-thunk)
 # my-thunk
 thunk a function what receive a callback
 
