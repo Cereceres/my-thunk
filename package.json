@@ -1,6 +1,6 @@
 {
   "name": "mythunk-node",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "thunkify a function given",
   "main": "index.js",
   "scripts": {

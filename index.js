@@ -1,26 +1,5 @@
-/**
-* private api
-*/
+
 const slice = Array.prototype.slice;
-
-/**
-* public api
-* build a thunk
-* @function
-* @param {function} asyncFunction, is not necessary to be async, only receive a
-* a callback
-* @param {*} params to asyncFunction
-* @return {function} thunk
-*/
-
-
-/**
-* public api
-* thunk
-* @function
-* @param {function} - callback
-* @return {*}
-*/
 
 module.exports = function(thunkable) {
     const ctx = this;

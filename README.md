@@ -34,8 +34,8 @@ thunk(done)  // exec now asyncFunction with the callback done passed
 ## mythunk(thunkable[,paramsOfthunkable,...]) -> thunked
 In general the thunkable receive like the last param a callback what is exec with err and other results.
 
-## thunked(callbackTothunkable) -> resFromthunkable
-Exec the thunkable and pass the callbackTothunkable like callback.
+## thunked(callbackTothunkable)
+Exec the thunkable and pass the callbackTothunkable like callback. If the callbackTothunkable is not given or is not a function a promise is returned.
 
 ## callbackTothunkable([err,params,...])
 if a error is catched by thunk is passed to callbackTothunkable
